@@ -156,16 +156,7 @@ img {
 
 /** MEDIA QUERYS **/
 
-@media screen and (max-width: 880px) {
-	.responsive h1,
-	h2 {
-		margin-left: 4vh;
-		margin-right: 4vh;
-	}
-}
-
-@media screen and (max-width: 1300px) {
-	.stripe-1 h4 {
-		font-size: calc(0.75em + 1vmin);
+@media screen and (max-width: 580px) {
+	p {
 	}
 }
