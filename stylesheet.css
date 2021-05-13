@@ -87,9 +87,6 @@ a {
 }
 
 /** THIS IS THE SECOND PART **/
-.section-2 {
-	padding: 9vh;
-}
 
 .words-2 {
 	text-align: center;
@@ -122,7 +119,6 @@ img {
 .words-3 {
 	text-align: center;
 	padding-bottom: 8vh;
-	color: #71beb2;
 }
 /** THIS IS THE FIFTH PART **/
 .section-5 {
