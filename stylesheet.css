@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+}
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	font-size: 0.5em;
+	text-transform: uppercase;
+}
+
+/** THIS IS THE NAV AND THE BACKGROUND PICTURE **/
+
+.section-1 {
+	width: 100%;
+	height: 100vh;
+	background-image: url("./images/genshin_1.png");
+	background-size: cover;
+	overflow: hidden;
+}
+
+.brand {
+	float: left;
+	height: 100%;
+	line-height: 70px;
+}
+.brand img {
+	margin-top: 5vh;
+	margin-left: 50%;
+}
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	width: auto;
+}
+.main-menu {
+	margin-right: 10vh;
+}
+
+.menu-item {
+	color: white;
+	margin-top: 7vh;
+	padding-left: 8vh;
+}
+
+/** THIS IS THE TEXT FOR THE BACKGROUND **/
+.responsive {
+	padding-top: 12em;
+	display: block;
+	text-align: center;
+	color: white;
+}
+
+.button {
+	margin: 0;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border: 4px solid white;
+	background-color: Transparent;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 70px 2px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.button:hover {
+	color: white;
+	background: rgba(28, 26, 27, 0.126);
+}
+
+/** THIS IS THE SECOND PART **/
+.section-2 {
+	padding: 9vh;
+}
+
+.words-2 {
+	text-align: center;
+	padding: 4vh;
+}
+.words-2 h2,
+h3 {
+	padding: 1vh;
+	color: #71beb2;
+}
+
+img {
+	padding: 1vh;
+}
+
+/** THIS IS THE THIRD PART **/
+.stripe-1 {
+	padding: 10vh;
+	margin-bottom: 10vh;
+	justify-content: space-around;
+	background-color: #71beb2;
+	color: rgb(255, 255, 255);
+}
+
+/** THIS IS THE FOURTH PART **/
+.section-4 {
+	padding: 7vh;
+	margin-bottom: 10vh;
+}
+.words-3 {
+	text-align: center;
+	padding-bottom: 8vh;
+	color: #71beb2;
+}
+/** THIS IS THE FIFTH PART **/
+.section-5 {
+	background-image: url(./images/img_4.jpg);
+	margin: 0;
+	padding: 0%;
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.words-4 {
+	display: block;
+	text-align: center;
+	color: white;
+}
+.stripe-2 {
+	background-color: #71beb2;
+	padding: 10vh;
+	background-color: #71beb2;
+	color: rgb(255, 255, 255);
+}
+.parent-2 {
+	display: flex;
+	justify-content: center;
+	height: auto;
+}
+
+.child-4 {
+	font-style: italic;
+	padding: 7vh;
+}
+
+/** MEDIA QUERYS **/
+
+@media screen and (max-width: 880px) {
+	.responsive h1,
+	h2 {
+		margin-left: 4vh;
+		margin-right: 4vh;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.stripe-1 h4 {
+		font-size: calc(0.75em + 1vmin);
+	}
+}
